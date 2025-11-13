@@ -6,7 +6,6 @@ export default function About() {
       id="about"
       className="h-screen relative flex flex-col justify-center items-center text-center snap-start overflow-hidden"
     >
-      {/* Background video */}
       <video
         autoPlay
         loop
@@ -20,7 +19,6 @@ export default function About() {
       {/* Dark overlay for better text visibility */}
       <div className="absolute inset-0 bg-black/60"></div>
 
-      {/* Content */}
       <div className="relative z-10 px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-[#ff7b00] mb-6">
           About VyomGarud

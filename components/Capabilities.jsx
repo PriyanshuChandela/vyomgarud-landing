@@ -26,11 +26,11 @@ export default function Capabilities() {
               key={i}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.2, duration: 0.6 }} // 👈 smoother stagger
+              transition={{ delay: i * 0.2, duration: 0.6 }} 
               whileHover={{
                 y: -6,
                 boxShadow: "0px 10px 25px rgba(255,123,0,0.35)",
-                transition: { duration: 0.15 }, // 👈 instant hover response
+                transition: { duration: 0.15 }, //  instant hover response
               }}
               className="bg-[#1a1a1a] p-6 rounded-2xl transition border border-[#222]"
             >

@@ -12,7 +12,6 @@ export default function Hero() {
       id="home"
       className="h-screen flex flex-col justify-center items-center text-center px-6 relative overflow-hidden"
     >
-      {/* 🔹 Background video */}
       <video
         autoPlay
         loop
@@ -23,10 +22,8 @@ export default function Hero() {
         <source src="/videos/hero-bg.mp4" type="video/mp4" />
       </video>
 
-      {/* 🔹 Dark overlay to improve text contrast */}
       <div className="absolute inset-0 bg-black/60 z-10" />
 
-      {/* 🔹 Background radial gradient (glow effect) */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.2 }}
@@ -34,7 +31,7 @@ export default function Hero() {
         className="absolute inset-0 bg-[radial-gradient(circle_at_center,#ff7b0020,transparent_70%)] z-20"
       />
 
-      {/* 🔹 Foreground content */}
+      {/* Foreground content */}
       <motion.h1
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
